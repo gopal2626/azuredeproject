@@ -1,0 +1,13 @@
+{
+	"name": "SQLServerCopyAllTable",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "onpremSQLServer",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,13 @@
+{
+	"name": "AzureSqlServerCopy",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabaseServer",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
